@@ -54,9 +54,9 @@
     "eslint-plugin-react-hooks": "^1.7.0",
     "prettier": "^1.19.1"
   },
-  "description": "A Windows 95 style Pokédex built with React.",
+  "description": "A nostalia fueled, open source, Windows 95 style portfolio.",
   "main": "index.js",
-  "keywords": [],
-  "author": "",
-  "license": "ISC"
+  "keywords": ["react", "react.js", "retro", "portfolio"],
+  "author": "Deanna Alexander",
+  "license": "MIT"
 }

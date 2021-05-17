@@ -1,6 +1,6 @@
 import React, { useContext } from 'react';
 import Draggable from 'react-draggable';
-import { Window, WindowContent, WindowHeader, Button } from 'react95';
+import { Window, WindowContent, WindowHeader, Button, Cutout } from 'react95';
 
 import { StoreContext } from '../store';
 
@@ -21,15 +21,16 @@ const PortfolioModal = () => {
       <Window
         onClick={_handleClick}
         style={{
-          width: 600,
-          height: 600,
-          maxWidth: '80%',
-          maxHeight: '80%',
+          width: 810,
+          height: 500,
+          minWidth: 430,
+          maxWidth: '90%',
+          maxHeight: '90%',
           position: 'fixed',
-          bottom: '8%',
-          right: '8%',
-          zIndex: 1,
+          bottom: '10px',
+          right: '10px',
           transform: 'translate(-50%, -50%)',
+          zIndex: 1,
           display: state.PortfolioModal ? 'block' : 'none',
         }}
       >
@@ -41,7 +42,92 @@ const PortfolioModal = () => {
             </span>
           </Button>
         </WindowHeader>
-        <WindowContent></WindowContent>
+        <WindowContent
+          style={{
+            width: '85%',
+            height: '100%',
+          }}
+        >
+          <Cutout style={{ width: '100%', height: '350px' }}>
+            <img
+              style={{
+                width: '300px',
+                height: 'auto',
+                border: '2px solid #000000',
+                margin: '0px 5px 0px 5px',
+                display: 'inline-block',
+              }}
+              src={require('../assets/project-images/code-quiz.gif')}
+              alt="code quiz assignment"
+            />
+            <img
+              style={{
+                width: '300px',
+                height: 'auto',
+                border: '2px solid #000000',
+                margin: '0px 5px 0px 5px',
+                display: 'inline-block',
+              }}
+              src={require('../assets/project-images/password-generator.gif')}
+              alt="password generator assignment"
+            />
+            <img
+              style={{
+                width: '300px',
+                height: 'auto',
+                border: '2px solid #000000',
+                margin: '0px 5px 0px 5px',
+                display: 'inline-block',
+              }}
+              src={require('../assets/project-images/project-1.gif')}
+              alt="project 1"
+            />
+            <img
+              style={{
+                width: '300px',
+                height: 'auto',
+                border: '2px solid #000000',
+                margin: '0px 5px 0px 5px',
+                display: 'inline-block',
+              }}
+              src={require('../assets/project-images/project-2.gif')}
+              alt="project 2"
+            />
+            <img
+              style={{
+                width: '300px',
+                height: 'auto',
+                border: '2px solid #000000',
+                margin: '0px 5px 0px 5px',
+                display: 'inline-block',
+              }}
+              src={require('../assets/project-images/employee-directory.gif')}
+              alt="employee directory assignment"
+            />
+            <img
+              style={{
+                width: '300px',
+                height: 'auto',
+                border: '2px solid #000000',
+                margin: '0px 5px 0px 5px',
+                display: 'inline-block',
+              }}
+              src={require('../assets/project-images/weather-dashboard.gif')}
+              alt="weather dashboard assignment"
+            />
+          </Cutout>
+          <img
+            style={{
+              width: '300px',
+              maxWidth: '90%',
+              position: 'fixed',
+              bottom: '10px',
+              left: '10px',
+            }}
+            src={require('../assets/portfolio-paints.png')}
+            alt="ms paint color swatches icon "
+          />
+        </WindowContent>
       </Window>
     </Draggable>
   );

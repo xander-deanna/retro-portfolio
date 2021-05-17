@@ -1,4 +1,5 @@
 import React, { useState, useEffect } from 'react';
+import Draggable from 'react-draggable';
 import { styleReset, AppBar, Toolbar, Hourglass } from 'react95';
 
 import { createGlobalStyle, ThemeProvider } from 'styled-components';
@@ -84,6 +85,23 @@ function App() {
             <ContactModal />
             <AboutMeModal />
             <AboutSiteModal />
+            <Draggable>
+              <img
+                style={{
+                  width: '30px',
+                  height: 'auto',
+                  bottom: '10px',
+                  right: '10px',
+                  position: 'fixed',
+                  userDrag: 'none',
+                  userSelect: 'none',
+                  zIndex: '5',
+                }}
+                src={require('./assets/aim-buddy.gif')}
+                alt="aim buddy dancing gif"
+              />
+            </Draggable>
+            <br />
           </div>
         </main>
       </ThemeProvider>

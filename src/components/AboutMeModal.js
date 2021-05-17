@@ -72,7 +72,7 @@ const AboutMeModal = () => {
           </Desktop>
           <br />
           <Select
-            class="toolsDropdown"
+            className="toolsDropdown"
             defaultValue={0}
             options={toolsOptions}
             menuMaxHeight={160}
