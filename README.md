@@ -2,7 +2,9 @@
     
 **Retro Portfolio** is an a React-built personal portfolio and website, featuring a nostalgic Windows 95 aesthetic.
 <br>
+<br>
 <hr>
+
     
 ## Table of Contents
 * [Requirements](#Requirements)
@@ -34,7 +36,6 @@ This portfolio is meant to run in the browser and has no requirements. If you wo
 - [React](https://reactjs.org)
 - [React95](https://github.com/arturbien/React95)
 - [React-Draggable](https://www.npmjs.com/package/react-draggable)
-<br>
 <br>
     
 ## Contact
