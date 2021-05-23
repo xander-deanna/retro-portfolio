@@ -27,7 +27,7 @@ const PortfolioModal = () => {
           maxWidth: '90%',
           maxHeight: '90%',
           position: 'fixed',
-          bottom: '10px',
+          bottom: '60px',
           right: '10px',
           transform: 'translate(-50%, -50%)',
           zIndex: 1,
@@ -49,78 +49,90 @@ const PortfolioModal = () => {
           }}
         >
           <Cutout style={{ width: '100%', height: '350px' }}>
-            <img
-              style={{
-                width: '300px',
-                height: 'auto',
-                border: '2px solid #000000',
-                margin: '0px 5px 0px 5px',
-                display: 'inline-block',
-              }}
-              src={require('../assets/project-images/code-quiz.gif')}
-              alt="code quiz assignment"
-            />
-            <img
-              style={{
-                width: '300px',
-                height: 'auto',
-                border: '2px solid #000000',
-                margin: '0px 5px 0px 5px',
-                display: 'inline-block',
-              }}
-              src={require('../assets/project-images/password-generator.gif')}
-              alt="password generator assignment"
-            />
-            <img
-              style={{
-                width: '300px',
-                height: 'auto',
-                border: '2px solid #000000',
-                margin: '0px 5px 0px 5px',
-                display: 'inline-block',
-              }}
-              src={require('../assets/project-images/project-1.gif')}
-              alt="project 1"
-            />
-            <img
-              style={{
-                width: '300px',
-                height: 'auto',
-                border: '2px solid #000000',
-                margin: '0px 5px 0px 5px',
-                display: 'inline-block',
-              }}
-              src={require('../assets/project-images/project-2.gif')}
-              alt="project 2"
-            />
-            <img
-              style={{
-                width: '300px',
-                height: 'auto',
-                border: '2px solid #000000',
-                margin: '0px 5px 0px 5px',
-                display: 'inline-block',
-              }}
-              src={require('../assets/project-images/employee-directory.gif')}
-              alt="employee directory assignment"
-            />
-            <img
-              style={{
-                width: '300px',
-                height: 'auto',
-                border: '2px solid #000000',
-                margin: '0px 5px 0px 5px',
-                display: 'inline-block',
-              }}
-              src={require('../assets/project-images/weather-dashboard.gif')}
-              alt="weather dashboard assignment"
-            />
+            <a href="http://xander-deanna.com/code-quiz/">
+              <img
+                style={{
+                  width: '300px',
+                  height: 'auto',
+                  border: '2px solid #000000',
+                  margin: '0px 5px 0px 5px',
+                  display: 'inline-block',
+                }}
+                src={require('../assets/project-images/code-quiz.gif')}
+                alt="code quiz assignment"
+              />
+            </a>
+            <a href="http://xander-deanna.com/password-generator/">
+              <img
+                style={{
+                  width: '300px',
+                  height: 'auto',
+                  border: '2px solid #000000',
+                  margin: '0px 5px 0px 5px',
+                  display: 'inline-block',
+                }}
+                src={require('../assets/project-images/password-generator.gif')}
+                alt="password generator assignment"
+              />
+            </a>
+            <a href="http://xander-deanna.com/project-1/">
+              <img
+                style={{
+                  width: '300px',
+                  height: 'auto',
+                  border: '2px solid #000000',
+                  margin: '0px 5px 0px 5px',
+                  display: 'inline-block',
+                }}
+                src={require('../assets/project-images/project-1.gif')}
+                alt="project 1"
+              />
+            </a>
+            <a href="https://damp-thicket-88352.herokuapp.com/login">
+              <img
+                style={{
+                  width: '300px',
+                  height: 'auto',
+                  border: '2px solid #000000',
+                  margin: '0px 5px 0px 5px',
+                  display: 'inline-block',
+                }}
+                src={require('../assets/project-images/project-2.gif')}
+                alt="project 2"
+              />
+            </a>
+            <a href="http://xander-deanna.com/employee-directory">
+              <img
+                style={{
+                  width: '300px',
+                  height: 'auto',
+                  border: '2px solid #000000',
+                  margin: '0px 5px 0px 5px',
+                  display: 'inline-block',
+                }}
+                src={require('../assets/project-images/employee-directory.gif')}
+                alt="employee directory assignment"
+              />
+            </a>
+            <a href="http://xander-deanna.com/weather-dashboard">
+              <img
+                style={{
+                  width: '300px',
+                  height: 'auto',
+                  border: '2px solid #000000',
+                  margin: '0px 5px 0px 5px',
+                  display: 'inline-block',
+                }}
+                src={require('../assets/project-images/weather-dashboard.gif')}
+                alt="weather dashboard assignment"
+              />
+            </a>
           </Cutout>
           <img
             style={{
               width: '300px',
               maxWidth: '90%',
-              position: 'fixed',
+              position: 'absolute',
               bottom: '10px',
               left: '10px',
             }}

@@ -1,4 +1,5 @@
 import React, { useContext } from 'react';
+// import { useState } from 'react';
 import Draggable from 'react-draggable';
 import {
   Window,
@@ -13,7 +14,7 @@ import { StoreContext } from '../store';
 
 const AboutSiteModal = () => {
   const [state, dispatch] = useContext(StoreContext);
-
+  // const [zIndexState, zIndexUpdate] = useState(0);
   const _handleClose = () => {
     dispatch({ type: 'SET_ABOUT_SITE_MODAL', payload: false });
     dispatch({ type: 'SET_HIDE_ABOUT_SITE_MODAL_BUTTON', payload: true });
@@ -21,6 +22,9 @@ const AboutSiteModal = () => {
 
   const _handleClick = () => {
     dispatch({ type: 'SET_ACTIVE_MODAL', payload: 'about-site' });
+
+    // attempt at changing z index based on which window is clicked
+    // zIndexUpdate(zIndexState + 5);
   };
 
   return (
@@ -34,6 +38,8 @@ const AboutSiteModal = () => {
           position: 'fixed',
           top: '10%',
           right: '5%',
+          zIndex: '2',
+          // {zIndexState},
           transform: 'translate(-50%, -50%)',
           display: state.AboutSiteModal ? 'block' : 'none',
         }}

@@ -1,6 +1,12 @@
 import React, { useContext } from 'react';
 import Draggable from 'react-draggable';
-import { Window, WindowContent, WindowHeader, Button, Fieldset, Anchor } from 'react95';
+import {
+  Window,
+  WindowContent,
+  WindowHeader,
+  Button,
+  Fieldset,
+} from 'react95';
 
 import { StoreContext } from '../store';
 
@@ -21,14 +27,14 @@ const ContactModal = () => {
       <Window
         onClick={_handleClick}
         style={{
-          width: 300,
-          height: 200,
+          width: 290,
+          height: 150,
           maxWidth: '90%',
           maxHeight: '90%',
           position: 'fixed',
-          bottom: '5%',
+          bottom: '60px',
           left: '5%',
-          zIndex: 3,
+          zIndex: 2,
           display: state.ContactModal ? 'block' : 'none',
         }}
       >
@@ -42,9 +48,9 @@ const ContactModal = () => {
         </WindowHeader>
         <WindowContent>
           <Fieldset label="holla at me!">
-            <Anchor href="mailto:xander.deanna@gmail.com">
-              xander.deanna@gmail.com
-            </Anchor>
+            <Button href="mailto:xander.deanna@gmail.com">Email</Button>
+            <Button href="mailto:xander.deanna@gmail.com">GitHub</Button>
+            <Button href="mailto:xander.deanna@gmail.com">Linkedin</Button>
           </Fieldset>
         </WindowContent>
       </Window>

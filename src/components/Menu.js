@@ -63,12 +63,11 @@ const Menu = () => {
         const win = window.open('https://github.com/xander-deanna', '_blank');
         win.focus();
         break;
+      case 'resume':
+        const resumeOpen = window.open('resume.pdf', '_blank');
+        resumeOpen.focus();
+        break;
 
-      // how can I make this download like my previous site?
-
-      // case 'resume':
-      //   window.download('./assets/Resume.pdf', '_blank');
-      //   break;
       default:
         return null;
     }
@@ -85,14 +84,14 @@ const Menu = () => {
       <ClickAwayListener onClickAway={_handleClickAway}>
         {state.menu && (
           <List
-            style={{ position: 'absolute', left: '0', top: '100%' }}
+            style={{ position: 'absolute', left: '0', bottom: '100%' }}
             onClick={_handleClose}
           >
             {/* Portfolio Link Here */}
             <ListItem onClick={() => _handleListItemClick('portfolio')}>
               <img
                 style={{ width: 22, marginRight: 8 }}
-                src={require('../assets/icons/portfolio.png')}
+                src={require('../assets/icons/brush.ico')}
                 alt="portfolio"
               />
               <span>Portfolio</span>
@@ -112,7 +111,7 @@ const Menu = () => {
             <ListItem onClick={() => _handleListItemClick('contact')}>
               <img
                 style={{ width: 22, marginRight: 8 }}
-                src={require('../assets/icons/contact.png')}
+                src={require('../assets/icons/mail.ico')}
                 alt="conact"
               />
               <span>Contact</span>
@@ -145,7 +144,7 @@ const Menu = () => {
                 src={require('../assets/icons/github.png')}
                 alt="github"
               />
-              <span>GitHub Repo</span>
+              <span>GitHub</span>
             </ListItem>
 
             <Divider />

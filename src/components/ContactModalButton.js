@@ -21,7 +21,7 @@ const ContactModalButton = () => {
           style={{ marginRight: 3 }}
         >
           <img
-            src={require('../assets/icons/contact.png')}
+            src={require('../assets/icons/mail.ico')}
             alt="Logo"
             style={{ marginLeft: -2, marginRight: 5, width: 20 }}
           />

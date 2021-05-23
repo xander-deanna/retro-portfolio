@@ -1,6 +1,6 @@
 import React, { useState, useEffect } from 'react';
 import Draggable from 'react-draggable';
-import { styleReset, AppBar, Toolbar, Hourglass } from 'react95';
+import { styleReset, AppBar, Toolbar, Hourglass, Panel } from 'react95';
 
 import { createGlobalStyle, ThemeProvider } from 'styled-components';
 import darkTeal from 'react95/dist/themes/darkTeal';
@@ -21,6 +21,7 @@ import AboutSiteModal from './components/AboutSiteModal';
 import AboutSiteModalButton from './components/AboutSiteModalButton';
 import AboutMeModal from './components/AboutMeModal';
 import AboutMeModalButton from './components/AboutMeModalButton';
+import TaskbarClock from './components/TaskbarClock';
 
 const sound = startupSound();
 const GlobalStyles = createGlobalStyle`
@@ -69,13 +70,29 @@ function App() {
       <GlobalStyles />
       <ThemeProvider theme={darkTeal}>
         <nav>
-          <AppBar style={{ zIndex: 3 }}>
+          <AppBar
+            style={{
+              position: 'fixed',
+              bottom: '0px',
+              top: 'auto',
+              zIndex: '3',
+            }}
+          >
             <Toolbar className="taskbar">
-              <Menu style={{ marginLeft: 'auto' }} />
+              <Menu
+                className="taskMenu"
+                style={{ position: 'fixed', left: '0px', bottom: '45px' }}
+              />
               <PortfolioModalButton />
               <ContactModalButton />
               <AboutMeModalButton />
               <AboutSiteModalButton />
+              <Panel
+                variant="well"
+                style={{ padding: '4px', position: 'absolute', right: '4px' }}
+              >
+                <TaskbarClock style={{ margin: '2px' }} />
+              </Panel>
             </Toolbar>
           </AppBar>
         </nav>
@@ -86,12 +103,13 @@ function App() {
             <AboutMeModal />
             <AboutSiteModal />
             <Draggable>
+              {/* aim buddy icon */}
               <img
                 style={{
                   width: '30px',
                   height: 'auto',
-                  bottom: '10px',
-                  right: '10px',
+                  bottom: '8px',
+                  right: '90px',
                   position: 'fixed',
                   userDrag: 'none',
                   userSelect: 'none',

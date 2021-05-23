@@ -13,7 +13,6 @@ import {
 
 import { StoreContext } from '../store';
 
-
 const AboutMeModal = () => {
   const [state, dispatch] = useContext(StoreContext);
   const toolsOptions = [
@@ -82,8 +81,8 @@ const AboutMeModal = () => {
             <div>
               <p style={{ width: '360px' }}>
                 Hi there! My name is Deanna. I'm a student at Univerity of Texas
-                - Austin, enrolled in the Full-Stack Development Bootcamp.
-                I created this webpage to help showcase the skills I have learned
+                - Austin, enrolled in the Full-Stack Development Bootcamp. I 
+                created this webpage to help showcase the skills I have learned
                 learned throughout my Bootcamp journey, but I've always had a
                 love for web development. I've been using HTML and CSS since
                 Myspace first dominated the internet, and still continued

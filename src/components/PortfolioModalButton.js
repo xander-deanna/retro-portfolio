@@ -21,7 +21,7 @@ const PortfolioModalButton = () => {
           style={{ marginRight: 3 }}
         >
           <img
-            src={require('../assets/icons/portfolio.png')}
+            src={require('../assets/icons/brush.ico')}
             alt="Logo"
             style={{ marginLeft: -2, marginRight: 5, width: 20 }}
           />
