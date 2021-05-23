@@ -53,4 +53,4 @@ This site was created by **Deanna Alexander** and is Licensed under the [MIT Lic
 <br>
 
 ## Acknowledgments
-Hat tip to [Artur Bień](https://github.com/arturbien), creator of [React95](https://github.com/arturbien/React95) UI components.
+Hat tip to [Artur Bień](https://github.com/arturbien), creator of [React95](https://github.com/arturbien/React95) React UI components.
