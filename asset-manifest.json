@@ -1,0 +1,36 @@
+{
+  "files": {
+    "main.css": "/retro-portfolio/static/css/main.1ff90b93.chunk.css",
+    "main.js": "/retro-portfolio/static/js/main.2281cbc0.chunk.js",
+    "main.js.map": "/retro-portfolio/static/js/main.2281cbc0.chunk.js.map",
+    "runtime-main.js": "/retro-portfolio/static/js/runtime-main.082c683f.js",
+    "runtime-main.js.map": "/retro-portfolio/static/js/runtime-main.082c683f.js.map",
+    "static/js/2.82f17694.chunk.js": "/retro-portfolio/static/js/2.82f17694.chunk.js",
+    "static/js/2.82f17694.chunk.js.map": "/retro-portfolio/static/js/2.82f17694.chunk.js.map",
+    "index.html": "/retro-portfolio/index.html",
+    "precache-manifest.f4be23aa3918db35be2215ed0e738be1.js": "/retro-portfolio/precache-manifest.f4be23aa3918db35be2215ed0e738be1.js",
+    "service-worker.js": "/retro-portfolio/service-worker.js",
+    "static/css/main.1ff90b93.chunk.css.map": "/retro-portfolio/static/css/main.1ff90b93.chunk.css.map",
+    "static/js/2.82f17694.chunk.js.LICENSE.txt": "/retro-portfolio/static/js/2.82f17694.chunk.js.LICENSE.txt",
+    "static/media/about-me-photo.gif": "/retro-portfolio/static/media/about-me-photo.8605ab9a.gif",
+    "static/media/aim-buddy.gif": "/retro-portfolio/static/media/aim-buddy.1c806c20.gif",
+    "static/media/App.css": "/retro-portfolio/static/media/background-image.05a5132d.gif",
+    "static/media/brush.ico": "/retro-portfolio/static/media/brush.beb0f6b8.ico",
+    "static/media/code-quiz.gif": "/retro-portfolio/static/media/code-quiz.e89b9e7c.gif",
+    "static/media/employee-directory.gif": "/retro-portfolio/static/media/employee-directory.c05df51c.gif",
+    "static/media/mail.ico": "/retro-portfolio/static/media/mail.f658dd41.ico",
+    "static/media/ms_sans_serif.woff2": "/retro-portfolio/static/media/ms_sans_serif.1d4d404a.woff2",
+    "static/media/ms_sans_serif_bold.woff2": "/retro-portfolio/static/media/ms_sans_serif_bold.cb1c7473.woff2",
+    "static/media/password-generator.gif": "/retro-portfolio/static/media/password-generator.46a81816.gif",
+    "static/media/project-1.gif": "/retro-portfolio/static/media/project-1.ccc2eeda.gif",
+    "static/media/project-2.gif": "/retro-portfolio/static/media/project-2.cd81d165.gif",
+    "static/media/weather-dashboard.gif": "/retro-portfolio/static/media/weather-dashboard.cbb357bf.gif",
+    "static/media/windows95_startup_theme.mp3": "/retro-portfolio/static/media/windows95_startup_theme.7a56402d.mp3"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.082c683f.js",
+    "static/js/2.82f17694.chunk.js",
+    "static/css/main.1ff90b93.chunk.css",
+    "static/js/main.2281cbc0.chunk.js"
+  ]
+}
