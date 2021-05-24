@@ -1,8 +1,8 @@
 {
+  "homepage": "http://xander-deanna.github.io/retro-portfolio",
   "name": "retro-portfolio",
   "version": "0.1.0",
   "private": true,
-  "homepage": "http://xander-deanna.github.io/retro-portfolio",
   "dependencies": {
     "@use-it/event-listener": "^0.1.3",
     "axios": "^0.21.1",
