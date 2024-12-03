@@ -49,7 +49,7 @@ const PortfolioModal = () => {
           }}
         >
           <Cutout style={{ width: '100%', height: '350px' }}>
-            <a href="http://xander-deanna.com/code-quiz/">
+            <a href="https://xander-deanna.github.io/code-quiz/">
               <img
                 style={{
                   width: '300px',
@@ -62,7 +62,7 @@ const PortfolioModal = () => {
                 alt="code quiz assignment"
               />
             </a>
-            <a href="http://xander-deanna.com/password-generator/">
+            <a href="https://xander-deanna.github.io/password-generator/">
               <img
                 style={{
                   width: '300px',
@@ -75,46 +75,7 @@ const PortfolioModal = () => {
                 alt="password generator assignment"
               />
             </a>
-            <a href="http://xander-deanna.com/project-1/">
-              <img
-                style={{
-                  width: '300px',
-                  height: 'auto',
-                  border: '2px solid #000000',
-                  margin: '0px 5px 0px 5px',
-                  display: 'inline-block',
-                }}
-                src={require('../assets/project-images/project-1.gif')}
-                alt="project 1"
-              />
-            </a>
-            <a href="https://damp-thicket-88352.herokuapp.com/login">
-              <img
-                style={{
-                  width: '300px',
-                  height: 'auto',
-                  border: '2px solid #000000',
-                  margin: '0px 5px 0px 5px',
-                  display: 'inline-block',
-                }}
-                src={require('../assets/project-images/project-2.gif')}
-                alt="project 2"
-              />
-            </a>
-            <a href="http://xander-deanna.com/employee-directory">
-              <img
-                style={{
-                  width: '300px',
-                  height: 'auto',
-                  border: '2px solid #000000',
-                  margin: '0px 5px 0px 5px',
-                  display: 'inline-block',
-                }}
-                src={require('../assets/project-images/employee-directory.gif')}
-                alt="employee directory assignment"
-              />
-            </a>
-            <a href="http://xander-deanna.com/weather-dashboard">
+            <a href="https://xander-deanna.github.io/weather-dashboard/">
               <img
                 style={{
                   width: '300px',
